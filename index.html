@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+    "
+    />
+    <link rel="stylesheet" href="./style/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <title>JANAQ KILICA</title>
+    <style>
+      /* JUMBOTRON STYLE HERE */
+      .jumbotron {
+        margin-top: 20px;
+        background: linear-gradient(
+            rgba(173, 108, 29, 0.25),
+            rgba(234, 241, 241, 0.45)
+          ),
+          url(./assets/Screenshot\ 2023-09-20\ 095245.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: white !important;
+        height: 50vh;
+        width: 100%;
+      }
+
+      /* BUTTON STYLE HERE */
+      .btn {
+        margin-right: 10px;
+      }
+
+      .btn-outline-primary {
+        border-color: white;
+        color: white;
+        background-color: transparent;
+        margin-top: 30px;
+        font-weight: 100;
+      }
+
+      .btn-outline-primary:hover {
+        border-color: transparent;
+        color: black;
+        background-color: white;
+      }
+
+      .btn-outline-primary:active {
+        border-color: transparent;
+        color: black;
+        background-color: white;
+        padding: 9px 20px 9px 20px;
+      }
+
+      /* BUTTON HEADER RIGHT */
+      .rightHeader {
+        position: absolute;
+        top: -15px;
+        right: 8px;
+      }
+
+      /* BUTTON HEADER LEFT */
+      .leftHeader {
+        position: absolute;
+        top: -15px;
+        left: 20px;
+      }
+
+      .title {
+        margin-top: 10vh;
+      }
+
+      .text_margin {
+        width: 70vw;
+        margin: 0 auto;
+      }
+
+      .string-1 {
+        padding-top: 30px;
+        width: 600px;
+        margin: 0 auto;
+        font-weight: 100;
+        margin-top: -35px;
+      }
+
+      .content {
+        margin: 10%;
+      }
+
+      br {
+        margin: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="nvb position-fixed w-100">
+      <div class="d-flex justify-content-around container">
+        <div class="p-2">
+          <img
+            class="logo pt-1"
+            src="./assets/logoooo-removebg-preview.png"
+            alt=""
+          />
+        </div>
+        <!-- <div class="p-2">
+          <img class="logo pt-1" src="../assets/VILA KASO SARANDE.png" alt="" />
+        </div> -->
+        <div class="p-2 justify-content-sm-end">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html"
+                    ><span style="font-size: 1.5rem">K</span>RYEFAQJA</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./htmlFiles/about.html"
+                    ><span style="font-size: 1.5rem">R</span>RETH NESH</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./htmlFiles/staff.html"
+                    ><span style="font-size: 1.5rem">N</span>XENESIT TANE &
+                    STAFI AKADEMIK</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="./htmlFiles/contact.html"
+                    ><span style="font-size: 1.5rem">K</span>ONTAKT
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- <div class="row">
+          <div
+            class="flag nav-item pt-4 mr-3 ml-3 d-none d-lg-block .d-xl-none"
+          >
+            <a href="index-sq.html">
+              <img src="../assets/alb.png" alt="" />
+            </a>
+          </div>
+          <div class="flag nav-item pt-4 ml-3 d-none d-lg-block .d-xl-none">
+            <img src="../assets/usa.png" alt="" />
+          </div>
+        </div> -->
+        <!-- <div class="p-2 pt-4 d-none d-lg-block .d-xl-none">
+          <button class="btn">
+            <a href="https://allbookers.com/hotel/AL/Vila-Kaso.sq.html?id=8537"
+              >BOOK NOW</a
+            >
+          </button>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="
+              background: url('./assets/Screenshot\ 2023-09-20\ 095245.png')
+                no-repeat;
+            "
+          >
+            <div class="content">
+              <h3>GJIMNAZI: "JANAQ KILICA"</h3>
+              <a href="./htmlFiles/about.html" class="btn">MESO ME SHUME</a>
+            </div>
+          </div>
+          <div
+            class="swiper-slide slide"
+            style="
+              background: url('./assets/Screenshot\ 2023-09-20\ 100221.png')
+                no-repeat;
+            "
+          >
+            <div class="content">
+              <h3>MIRESEVINI</h3>
+              <a href="./htmlFiles/staff.html" class="btn">MESO ME SHUME</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- <section class="header d-flex align-items-center justify-content-center">
+      <div class="d-flex flex-column align-items-center">
+        <div class="title p-2 font-weight-bold">VILA KASO</div>
+        <div class="subtitle p-2 text-secondary">WELCOME</div>
+        <div class="p-2">
+          <button class="btn">
+            <a href="#">LEARN MORE</a>
+          </button>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="container about mt-5 bg-dark">
+      <div class="row container">
+        <div
+          class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center container"
+        >
+          <div class="p-2">
+            <img
+              class="img-fluid w-100 pt-3 container"
+              src="./assets/jq5.webp"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex flex-column">
+              <div class="about-title align-self-center">RRETH NESH</div>
+              <div class="p-2">
+                Nga ‘’Janaq Kilica’’ kanë dalë prej 60 vitesh plejada të tëra
+                nxënësish të shquar, të cilët janë bërë personalitete të
+                shoqërisë shqiptare. Duke nisur nga maturantet e parë në vitin
+                1960 si Violeta Pogaçe, Viktor Kozma, Xhorxhi Puka, Vasillaq
+                Aleksi, Andon Dëma, Stavri Pone, LLambi Bani, mund të përmendim
+                një sërë emrash të njohur brenda dhe jashtë vendit
+              </div>
+              <div class="p-2">
+                Të tillë kanë qënë nxënsit që njihen sot prej opinionit publik
+                shqiptar si përfaqësues të lartë të një sërë institucionesh të
+                rëndësishme shtetërore si: Ylli Bufi, Edmond Lule, Kujtim
+                Hysenaj, Theodhori Sollaku, Kozma Dashi, Robert Bitri, etj.
+              </div>
+              <div class="p-2">
+                <div class="d-flex justify-content-around">
+                  <div class="p-2">
+                    <h5 class="location display-5">
+                      <i class="location fa-solid fa-location-arrow"></i
+                      >FIER,SHQIPERI
+                    </h5>
+                  </div>
+                  <div class="p-2">
+                    <button class="btn">
+                      <a href="./htmlFiles/about.html">MESO ME SHUME</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="rooms container pt-5 mt-5 d-flex flex-column align-items-center justify-content-center"
+    >
+      <h3
+        class="section-title text-center border-bottom border-warning col-md-6"
+      >
+        TAKONI STAFIN TONE
+      </h3>
+      <div class="row">
+        <div
+          class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center"
+        >
+          <div class="col-md-6">
+            <div class="d-flex flex-column">
+              <div class="p-2">
+                Një rol të rëndësishëm në arritjet e çdo institucioni arsimor e
+                luajnë padyshim mësuesit dhe në këtë drejtim, mësuesit në këtë
+                shkollë kanë dhënë një kontribut të jashtëzakonshëm. Si pjesë e
+                elitës së shkencës dhe kulturës në Fier por edhe më gjerë në
+                Shqipëri ata kanë qënë emra të shquar të cilët kanë bërë një
+                punë të jashtëzakonshme në lartësimin e emrit të këtij gjimnazi.
+              </div>
+
+              <div class="p-2 align-self-center">
+                <button class="btn">
+                  <a href="./htmlFiles/staff.html">MESO ME SHUME</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="p-2">
+            <img
+              class="img-fluid w-100 pt-3 container"
+              src="./assets/Screenshot 2023-09-20 103020.png"
+              alt=""
+            />
+          </div>
+          <div class="d-flex"></div>
+          <!-- <div class="d-flex flex-column col-md-3 align-items-strech">
+            <div class="p-2 container-fluid flex-grow-1">
+              <img
+                class="img-fluid w-100"
+                src="../assets/Photo(4).jpg"
+                alt=""
+              />
+            </div>
+            <div class="p-2 container-fluid">
+              <img
+                class="img-fluid w-100"
+                src="../assets/Photo(8).jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="d-flex flex-column col-md-3 align-items-strech">
+            <div class="p-2 container-fluid flex-grow-1">
+              <img
+                class="img-fluid w-100"
+                src="../assets/Photo(9).jpg"
+                alt=""
+              />
+            </div>
+            <div class="p-2 container-fluid">
+              <img
+                class="img-fluid w-100"
+                src="../assets/Photo(10).jpg"
+                alt=""
+              />
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="offers container d-flex flex-column pt-5 mt-5 align-items-center"
+    >
+      <div
+        class="d-flex flex-column align-items-center border-top border-bottom col-md-12 border-warning"
+      >
+        <div class="text p-2">CFARE NE</div>
+        <div class="p-2"><span>OFROJME</span></div>
+      </div>
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center mt-5 pt-5"
+        >
+          <div class="col-md-4 p-2 flex-fill text-center mr-2 mt-2">
+            <div class="icons flex flex-column">
+              <div class="p-2">
+                <i class="fa-solid fa-graduation-cap"></i>
+              </div>
+              <div class="p-2">MESIMDHENIE CILESORE</div>
+            </div>
+          </div>
+          <div class="col-md-4 p-2 flex-fill text-center mr-2 mt-2">
+            <div class="icons flex flex-column">
+              <div class="p-2">
+                <i class="fa-solid fa-chalkboard-user"></i>
+              </div>
+              <div class="p-2">STAF TE PERGATITUR</div>
+            </div>
+          </div>
+          <div class="col-md-4 p-2 flex-fill text-center mr-2 mt-2">
+            <div class="icons flex flex-column">
+              <div class="p-2">
+                <i class="fa-solid fa-chair"></i>
+              </div>
+              <div class="p-2">KLASA KOMODE</div>
+            </div>
+          </div>
+        </div>
+        <!-- <div
+          class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center mt-1 pt-1"
+        >
+          <div class="col-md-4 p-2 flex-fill text-center mr-2 mt-2">
+            <div class="icons flex flex-column">
+              <div class="p-2"><i class="fa-solid fa-square-parking"></i></div>
+              <div class="p-2">FREE PARKING</div>
+            </div>
+          </div>
+          <div class="col-md-4 p-2 flex-fill text-center mr-2 mt-2">
+            <div class="icons flex flex-column">
+              <div class="p-2">
+                <i class="fa-solid fa-mug-saucer"></i>
+              </div>
+              <div class="p-2">BREAKFAST</div>
+            </div>
+          </div>
+          <div class="col-md-4 p-2 flex-fill text-center mr-2 mt-2">
+            <div class="icons flex flex-column">
+              <div class="p-2">
+                <i class="fa-solid fa-wifi"></i>
+              </div>
+              <div class="p-2">FREE WI-FI</div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="d-flex pt-5">
+        <div class="p-2">
+          <button class="btn">
+            <a href="./htmlFiles/about.html">MESO ME SHUME</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="gallery pt-5 mt-5 d-flex flex-column align-items-center justify-content-center container bg-dark"
+    >
+      <div class="container row">
+        <div
+          class="d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center"
+        >
+          <div class="col-md-3">
+            <div
+              class="d-flex flex-sm-row flex-lg-column align-items-left justify-content-between"
+            >
+              <div class="d-flex flex-column">
+                <div class="gallery-title p-2 bg-dark">ZBULONI</div>
+                <div class="gallery-title p-2 bg-dark">SHKOLLEN</div>
+                <div class="gallery-title p-2 bg-dark pb-5">TONE</div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column col-md-3 align-items-strech">
+            <div class="p-2 container-fluid">
+              <a href="gallery.html">
+                <img
+                  class="img-fluid w-100"
+                  src="./assets/Screenshot 2023-09-20 104534.png"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="p-2 container-fluid">
+              <a href="gallery.html"
+                ><img
+                  class="img-fluid w-100 mb-4 pb-4"
+                  src="./assets/Screenshot 2023-09-20 104452.png"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="d-flex flex-column col-md-3 align-items-strech">
+            <div class="p-2 container-fluid flex-grow-1">
+              <a href="gallery.html"
+                ><img
+                  class="img-fluid w-100"
+                  src="./assets/Screenshot 2023-09-20 104800.png"
+                  alt=""
+              /></a>
+            </div>
+            <div class="p-2 container-fluid">
+              <a href="gallery.html"
+                ><img
+                  class="img-fluid w-100 mb-4 pb-4"
+                  src="./assets/jq9.jpg"
+                  alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="d-flex flex-column col-md-3 align-items-strech">
+            <div class="p-2 container-fluid flex-grow-1">
+              <a href="gallery.html"
+                ><img
+                  class="img-fluid w-100"
+                  src="./assets/Screenshot 2023-09-20 095245.png"
+                  alt=""
+              /></a>
+            </div>
+            <div class="p-2 container-fluid mb-4 pb-4">
+              <a href="gallery.html">
+                <img class="img-fluid w-100" src="./assets/jq11.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jumbotron -->
+    <div class="jumbo" id="cover">
+      <div class="jumbotron jumbotron-fluid">
+        <div
+          class="d-flex flex-column align-items-center justify-content-center pt-5 mt-5"
+        >
+          <div class="slogan1 p-2" style="color: white; font-size: 3rem">
+            ZGJIDHNI <span class="font-weight-bold">SHKOLLEN</span> TONE
+          </div>
+          <div class="slogan p-2" style="font-size: 1.5rem">
+            Zbuloni avantazhet e nje arsimi cilesor
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+
+    <section
+      class="review d-flex flex-column pt-5 mt-5 align-items-center justify-content-center"
+    >
+      <h3 class="review-title">NXENES TE DALLUAR</h3>
+      <div class="row">
+        <div
+          class="pt-5 mt-5 d-flex flex-column flex-sm-column flex-md-row flex-lg-row"
+        >
+          <div class="col-md-3 pr-5 mr-5 pb-5">
+            <div
+              class="d-flex flex-sm-row flex-lg-column align-items-left justify-content-between"
+            >
+              <div class="d-flex flex-column">
+                <div class="review-text p-2">CILET</div>
+                <div class="review-text p-2">JANE</div>
+                <div class="review-text p-2">NXENESIT</div>
+                <div class="review-text p-2">TANE</div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <div
+              class="d-flex flex-sm-column flex-md-column flex-lg-row flex-column"
+            >
+              <div class="d-flex flex-column pb-2">
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <p class="card-text">
+                        Nga ‘’Janaq Kilica’’ kanë dalë prej 60 vitesh plejada të
+                        tëra nxënësish të shquar, të cilët janë bërë
+                        personalitete të shoqërisë shqiptare
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-column">
+                <div class="col-md-4">
+                  <div class="card" style="width: 18rem">
+                    <div class="card-body">
+                      <p class="card-text">
+                        Në fushën e artit është zhvilluar një punë shumë e mirë
+                        ndër vitë, ku që bangat e shkollës janë shquar emra që
+                        më vonë do të bëheshin të njohur në teatër dhe
+                        kinematografi.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 mt-4">
+              <button class="btn">
+                <a href="./htmlFiles/staff.html">MESO ME SHUME</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row bg-dark mt-5 pt-5">
+      <div
+        class="container-fluid d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center"
+      >
+        <div class="d-flex flex-column col-md-4 align-items-center">
+          <div class="p-2">
+            <h3 class="pb-4" style="color: white !important">Kontakt</h3>
+          </div>
+          <div class="p-2 text-secondary" style="color: white !important">
+            Adresa:Rruga:"Andon Profka", Fier, Shqiperi
+          </div>
+
+          <div class="p-2 text-secondary" style="color: white !important">
+            E-mail: JANAQKILICA@gmail.com
+          </div>
+          <div
+            class="p-2 text-secondary pt-5 mt-5"
+            style="color: white !important"
+          >
+            Copoyright © 2023 | Janaq Kilica
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column col-md-4 align-items-center justify-content-center"
+        >
+          <div class="p-2">
+            <h3 class="pb-2 pt-4 mt-4" style="color: white !important">
+              Links
+            </h3>
+          </div>
+          <div
+            class="container-fluid d-flex flex-column flex-sm-column flex-md-row flex-lg-row align-items-center justify-content-center"
+          >
+            <div class="p-2">
+              <a style="color: white !important" href="index.html">KRYEFAQJA</a>
+            </div>
+            <div class="p-2">
+              <a style="color: white !important" href="./htmlFiles/staff.html"
+                >NXENESIT TANE & STAFI AKADEMIK</a
+              >
+            </div>
+
+            <div class="p-2">
+              <a style="color: white !important" href="./htmlFiles/about.html"
+                >RRETH NESH</a
+              >
+            </div>
+            <div class="p-2">
+              <a style="color: white !important" href="./htmlFiles/contact.html">KONTAKT</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-column col-md-4 align-items-center justify-content-center"
+        >
+          <div class="p-2 d-flex align-items-center justify-content-center">
+            <h3 class="pb-2 pt-4 mt-4" style="color: white !important">
+              Vendndodhja
+            </h3>
+          </div>
+          <div class="p-2 d-flex align-items-center justify-content-center">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.66268644656!2d19.552561175565504!3d40.72544153679338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134552c7c7789abd%3A0xe3fe723026bba91e!2sJanaq%20Kilica%20High%20School!5e0!3m2!1sen!2s!4v1695211696657!5m2!1sen!2s"
+              width="600"
+              height="350"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
